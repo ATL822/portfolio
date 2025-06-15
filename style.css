@@ -1,3 +1,17 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 82px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -26,4 +40,21 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+.welcome-wrapper, .about-wrapper, .blog-wrapper, .portfolio-wrapper, .footer-wrapper {
+    border: solid 2px red;
+}
+
+
+/* Gallery Formatting */
+.welcome-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-wrapper {
+    display: flex;
+    align-items: center;
 }
